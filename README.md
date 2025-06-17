@@ -56,7 +56,7 @@ Make sure you've configured your bot settings inside `config/settings.js` before
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License]([LICENSE](https://github.com/xFrogly/Minecraft-bot/blob/main/LICENSE)).
 
 ---
 
