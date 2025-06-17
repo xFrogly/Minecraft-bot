@@ -30,7 +30,7 @@ Stay online, avoid getting kicked, simulate player activity, and automate action
 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/minecraft-afk-bot.git
+git clone https://github.com/xFrogly/Minecraft-bot.git
 cd minecraft-afk-bot
 ```
 
@@ -56,7 +56,7 @@ Make sure you've configured your bot settings inside `config/settings.js` before
 
 ## 📄 License
 
-This project is open source and available under the [MIT License]([LICENSE](https://github.com/xFrogly/Minecraft-bot/blob/main/LICENSE)).
+This project is open source and available under the [MIT License](https://github.com/xFrogly/Minecraft-bot/blob/main/LICENSE).
 
 ---
 
