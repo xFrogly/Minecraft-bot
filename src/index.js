@@ -2,7 +2,7 @@ const mineflayer = require("mineflayer");
 const chalk = require("chalk");
 const settings = require("./settings");
 const startAntiAfk = require("./antiAfk");
-const attackNearby = require('./attackSystem');
+const attackNearby = require('./attackSystem'); 
 const startMovement = require("./movement");
 
 function createBot() {
