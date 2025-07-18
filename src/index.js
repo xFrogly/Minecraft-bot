@@ -5,7 +5,7 @@ const startAntiAfk = require("./antiAfk");
 const attackNearby = require('./attackSystem'); 
 const startMovement = require("./movement");
 
-function createBot() {
+function createBot() { 
   const bot = mineflayer.createBot({
     host: settings.server.host,
     port: settings.server.port,
