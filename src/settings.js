@@ -1,15 +1,15 @@
 module.exports = {
   // Bot account settings
   bot: {
-    username: "xyz",       // Username of the Minecraft bot account
-    premium: true          // Set to true if using a Mojang/Microsoft premium account
+    username: "‎ ",       // Username of the Minecraft bot account
+    premium: false          // Set to true if using a Mojang/Microsoft premium account
   },
 
   // Minecraft server connection settings
   server: {
-    host: "localhost",     // IP of the server
-    port: 25565,           // Server port (default is 25565)
-    version: "1.21.4"      // Minecraft version to connect with
+    host: "EternalMangekyu.aternos.me",     // IP of the server
+    port: 64348,           // Server port (default is 25565)
+    version: "1.21.10"      // Minecraft version to connect with
   },
 
   // Auto-reconnect settings
@@ -26,12 +26,12 @@ module.exports = {
   // Anti-AFK system to prevent bot from being kicked for inactivity
   antiAfk: {
     enabled: true,         // Enable or disable anti-AFK
-    mode: "jumping"        // Options: "circle", "jumping", "idle", "randomWalk"
+    mode: "randomWalk"        // Options: "circle", "jumping", "idle", "randomWalk"
   },
 
   // Automatic messages sent by the bot at intervals
   autoMessages: {
-    enabled: true,         // Enable sending automatic messages
+    enabled: false,         // Enable sending automatic messages
     repeat: true,          // Repeat the messages continuously
     repeatDelay: 60000,    // Time delay between messages in milliseconds
     messages: [            // List of messages to send
@@ -60,3 +60,4 @@ module.exports = {
     swim: true             // Allow swimming if water is encountered
   }
 };
+
