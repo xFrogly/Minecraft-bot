@@ -1,15 +1,15 @@
 module.exports = {
   // Bot account settings
   bot: {
-    username: "xyz",       // Username of the Minecraft bot account
-    premium: true          // Set to true if using a Mojang/Microsoft premium account
+    username: "‎ ",       // Username of the Minecraft bot account
+    premium: false          // Set to true if using a Mojang/Microsoft premium account
   },
 
   // Minecraft server connection settings
   server: {
-    host: "localhost",     // IP of the server
-    port: 25565,           // Server port (default is 25565)
-    version: "1.21.4"      // Minecraft version to connect with
+    host: "EternalMangekyu.aternos.me",     // IP of the server
+    port: 64348,           // Server port (default is 25565)
+    version: "1.21.10"      // Minecraft version to connect with
   },
 
   // Auto-reconnect settings
@@ -60,3 +60,4 @@ module.exports = {
     swim: true             // Allow swimming if water is encountered
   }
 };
+
